@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UniAppProjectCore": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
