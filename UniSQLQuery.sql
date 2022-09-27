@@ -58,3 +58,19 @@ go
 --	CreationTime DateTime not null
 --)
 
+create table CommentReoly(
+   CommentId int identity(1,1) primary key,
+   CommunityId int not null,
+   CommentParent int not null,
+   CommentNickName varchar(100) not null,
+   CommentPortrait text not null,
+   CommentAddress text,
+   CommentContent text not null,
+   ReolyQuantity int not null,
+   ReolyNickName varchar(100),
+   BeInterestedNumber int not null,
+   BeInterestedState bit not null,
+   UninterestedNumber int not null,
+   UninterestedState bit not null,
+   CreationTime datetime not null,
+)
